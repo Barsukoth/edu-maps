@@ -68,9 +68,9 @@ body {
 /* Footer */
 .footer {
     padding: 25px 0;
-    background: rgb(65, 73, 57);
+    background: rgb(93, 90, 109);
 }
 
 .footer__text {
-
+    text-align: center;
 }
