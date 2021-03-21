@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <script src="https://maps.api.2gis.ru/2.0/loader.js"></script>
     <script src="js/map.js"></script>
-    <title>EduMaps</title>
+    <title>EduMaps - Учебные заведения на карте</title>
 </head>
 <body>
     <div class="wrapper">
@@ -20,31 +20,46 @@
             <div class="header__white">
                 <div class="conteiner">
                     <div class="header__menu">
-                        <ul class="header__list">
-                            <li>Меню</li>
-                            <li>Не меню</li>
-                            <li><a href="about.html">О нас</a></li>
-                        </ul>
+                        <div class="menu__item menu__item_active"><a href="index.html">Карта</a></div>
+                        <div class="menu__item">Списки</div>
+                        <div class="menu__item"><a href="about.html">О проекте</a></div>
                     </div>
                 </div>
             </div>
         </header>
         <main class="main">
             <div class="conteiner">
-                <div class="main__text">
-                    О нас
+                <div class="main__text main__text_title">
+                    Учёбные заведения на карте Приморского края
                 </div>
             </div>
             <div class="main__map">
                 <div id="map" style="width: 100%; height: 550px;"></div>
             </div>
             <div class="conteiner">
-                Координаты: <span id="clicked_element">не определены</span>
+                <div class="main__text">
+                    Координаты: <span id="clicked_element">не определены</span>
+                </div>
             </div>
         </main>
         <footer class="footer">
             <div class="conteiner">
-                <div class="footer__text">Footer</div>
+                <div class="footer__row">
+                    <div class="footer__link">
+                        <div class="link__item link__item_active"><a href="index.html">Карта</a></div>
+                        <div class="link__item">Списки</div>
+                        <div class="link__item"><a href="about.html">О проекте</a></div>
+                    </div>
+                    <div class="footer__social">
+                        <div class="social__text">e-mail: alexestas@mail.ru</div>
+                        <a href="https://github.com/Barsukoth" target="_blank" class="social__link">
+                            <img src="img/github_logo.png"  width="38px" height="38px" alt="GitHub">
+                        </a>
+                        <a href="https://pu51.info" target="_blank" class="social__link">
+                            <img src="img/pu51_logo.png" width="38px" height="38px" alt="pu51">
+                        </a>
+                    </div>
+                </div>
             </div>
         </footer>
     </div>
