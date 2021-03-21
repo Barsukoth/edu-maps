@@ -16,15 +16,14 @@ img{vertical-align:top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 /*--------------------*/
 
-
 a, a:visited {
-    color: rgb(93, 90, 109);
+    color: rgb(211, 211, 211);
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
     background: rgb(255, 255, 255);
-    color: rgb(78, 78, 78);
+    color: rgb(211, 211, 211);
 }
 
 .wrapper {
@@ -43,47 +42,23 @@ body {
 
 /* Header */
 .header {
-    background: #303b44;
-    
+    padding: 25px 0;
+    background: rgb(93, 90, 109);
 }
 
 .header__row {
-    padding: 18px 0;
-    color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
-}
-.header__row a {
-    color: #fff;
-}
-
-.header__menu {
-    color: #303b44;
-    padding: 17px 0;
-
-}
-
-.header__white {
-    background-color: #fff;
-    border-bottom: 1px solid #bccccf;
 }
 
 .header__list li {
     display: inline;
     padding: 0 10px;
 }
-.header__list li:first-child {
-    padding: 0 10px 0 0;
-}
 
 /* Main */
 .main {
     flex: 1 1 auto;
-}
-
-.main__map {
-    width: 100%;
-    margin: 0px 0px;
 }
 
 .main__text {
@@ -93,7 +68,7 @@ body {
 /* Footer */
 .footer {
     padding: 25px 0;
-    background: #303b44;
+    background: rgb(93, 90, 109);
 }
 
 .footer__text {
