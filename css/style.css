@@ -81,11 +81,6 @@ body {
     flex: 1 1 auto;
 }
 
-.main__map {
-    width: 100%;
-    margin: 0px 0px;
-}
-
 .main__text {
     color: #000;
 }
