@@ -18,7 +18,7 @@ DG.then(function() {
         maxWidth: 350,
         minWidth: 300
     });
-    pu51.bindLabel('Место учёбы автора', { static: true });
+    pu51.bindLabel('Автомобильно-технический колледж', { static: true });
 });
 
 
